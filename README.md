@@ -1,6 +1,10 @@
 # Nolensville
 [Nolensville, TN Trail System](basemap/Nolensville.pdf)
 
+I also made a basemap of the Red River Gorge, but couldn't take pictures of it. Additionally, ArcGIS was weird and kept leaving the hillshade out of the layout; I messaged you on Canvas about the problem but dropped it because I was focusing on Nolensville.
+
+[Red River Gorge Basemap](basemap/Layout.pdf)
+
 
 ![Mill Creek](photos/b1.jpg) Mill Creek, photo by Drew Taylor
 
