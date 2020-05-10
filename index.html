@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>The Red River Gorge: A Portfolio</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+
+    <style>
+        /* UK Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0033a0;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #ffffff;
+            font-size: 1.1em;
+
+        }
+
+        section {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900i;
+            font-size: 2.8em;
+            font-style: italic;
+            /* The em unit. 3x the current size */
+            letter-spacing: .01em;
+            margin: 0 0 15px 0;
+            /* text-transform: uppercase; */
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #c7c9c8;
+            font-size: 1.5em;
+            letter-spacing: .06em;
+            font-style: italic;
+            margin: 0 0 25px 0;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.8em;
+            margin: 0 0 25px 0;
+        }
+
+        a {
+            color: #009bda;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding: 0px 20px 4px 20px;
+            /* font-size: 0.96em; */
+            line-height: 1.6em;
+            color: #c7c9c8;
+        }
+
+        li {
+            margin: 10px 0
+        }
+
+        #map {
+            width: 100%;
+            margin: 0px auto;
+
+        }
+
+        .max-image-width {
+            width: 100%;
+        }
+
+        /* add custom style class here */
+
+        .linkbox {
+            margin: 3px 0 20px 0;
+            display: block;
+            font-weight: 300;
+        }
+
+        hr {
+            border: 0px;
+            border-bottom: 1px solid #c7c9c8;
+            padding-top: 20px;
+        }
+
+        /* Use float property to make two-column layout */
+
+        .first-column {
+            float: left;
+            width: 48%;
+            padding-right: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 48%;
+        }
+
+        /* Clear floats after the columns */
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .svg-title {
+            float: left;
+            display: inline-block;
+            width: 75px;
+            margin: -8px 10px -8px 0;
+        }
+
+        .svg-legend {
+            display: inline-block;
+            width: 50px;
+            margin: 0px 10px -20px 0;
+        }
+
+        .legend  {
+            margin: 0px 10px 20px 0;
+        }
+
+        .legend h3 {
+            border-bottom:1px #131313 solid;
+            padding: 0 0 10px 0;
+            width: 300px;
+        }
+
+        /* When browser is 800px wide or less */
+
+        @media screen and (max-width: 800px) {
+
+            .first-column,
+            .column {
+                width: 100%;
+            }
+        }
+
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <iframe src="map/map.html" width="100%" height="440px"></iframe>
+    <section>
+        <a href='map/index.html' class="linkbox">More about Cloud Splitter</a>
+
+        
+
+        <h1>The Red River Gorge: A Portfolio</h1>
+        <h2>Drew Taylor</h2>
+        <div class="row">
+            <div class="first-column">
+                <div class="legend">
+                    <h3>About the Gorge</h3>
+                </div>
+                <p>
+                    The Red River Gorge is an area of the Daniel Boone National Forest abundant in dramatic landscapes.
+                    It is primarily formed by canyons surrounding its namesake, the Red River.
+                </p>
+                <p>
+                    This project is the culmination of a semester's worth of work in GEO 409 at the University of Kentucky.
+                    It is intended to demonstrate both my growth in GIS skills and the beauty of the Gorge.
+                </p>
+                <hr>
+                <div class="legend">
+                    <h3>Basemap</h3>
+                </div>
+                <a href="basemap/Layout.pdf"><img class="max-image-width" src="photos/basemap.png" title="RRG Basemap"></a>
+                <div class="linkbox">
+                    A land-use basemap of the Red River Gorge
+                </div>
+                <hr>
+                <img class="max-image-width" src="https://toredrivergorge.files.wordpress.com/2011/07/cloud-splitter-arch-2.jpg"
+                    title="Cloud Splitter Arch">
+                <div class="linkbox">
+                    Photograph of Cloud Splitter by <a href="https://toredrivergorge.com/top-10-day-hikes/indian-staircase-area/cloud-splitter-arch-1-5-miles-unmarked/">Adam Gall,</a> used for educational purposes
+                </div>
+                <hr>
+                <div class="legend">
+                    <h3>Project Information</h3>
+                </div>
+                <p>
+                    This project was created by Drew Taylor as part of GEO 409 at the University of Kentucky in Spring of 2020. All data is used for educational purposes.
+                </p>
+
+            </div>
+            <div class="column">
+                <img class="max-image-width" src="photos/rrg.jpg"
+                    title="The Red River Gorge">
+                <div class="linkbox">
+                    Photograph of a Gorge-ous sunrise by <a href="https://www.flickr.com/photos/sellers8847/36483939155">Steve Sellers</a>
+                </div>
+                <hr>
+                <div class="legend">
+                    <h3>Potree Interactive Scene</h3>
+                </div>
+                <a href="potree/index.html"><img class="max-image-width" src="photos/potree.png" title="Potree Model"></a>
+                <div class="linkbox">
+                    An interactive 3D model of the area surrounding Cloud Splitter in the Red River Gorge
+                </div>
+                <hr>
+                <div class="legend">
+                    <h3>Tools used in this project</h3>
+                </div>
+                <ul>
+                    <li><a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview">ArcGIS Pro</a> was used to process lidar data, calculate elevation derivatives, create the basemap and its layout, and produce the flyover animation.</li>
+                    <li>The interactive contours map uses <a href="https://mapbox.com">Mapbox</a> with geolocation services enabled. </li>
+                    <li>The interactive model was built using the open-source <a href="http://potree.org">Potree</a> framework.</li>
+                </ul>
+                <hr>
+                <div class="legend">
+                    <h3>Video Flyover</h3>
+                </div>
+                <iframe width="100%" height="410px" src="https://www.youtube.com/embed/L0mQj61p_l0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="linkbox">
+                    A flyover animation of Cloud Splitter and surrounding landforms, produced in ArcGIS
+                </div>
+                <hr>
+                <div class="legend">
+                    <h3>Project Assets and Sources</h3>
+                </div>
+                <ul>
+                    <li><a href="resources/arches_us.geojson" download>Arch point locations GeoJSON (from the Geographic Names Information System)</a></li>
+                    <li><a href="http://kyfromabove.ky.gov/">Lidar data from KyFromAbove</a></li>
+                    <li><a href="https://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/">Aerial imagery from the U.S. National Aerial Imagery Program</a></li>
+                    <li><a href="https://www.mrlc.gov/">Land type data from the National Land Cover Database</a></li>
+                    <li><a href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography">Streams and water-bodies data from the USGS National Hydrography Dataset</a></li>
+                    <li><a href="https://www.usgs.gov/core-science-systems/ngp/national-hydrography">Streams and water-bodies data from the USGS National Hydrography Dataset</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <hr>
+        <h4><a href="https://github.com/drewt774"><img src="resources/GitHub_Logo_White.png"></a></h4>
+        <a href="https://uky-gis.github.io">
+            <img class="logo" src="resources/dog-white.png" alt="University of Kentucky Geography"></a>
+    </section>
+</body>
+</html>
